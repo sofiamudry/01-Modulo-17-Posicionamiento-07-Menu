@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    display: inline-flex;
+    width: 100px;
+}
+
+ul {
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(27, 81, 50);
+    color: seashell;
+}
+
+body {
+    height: 200vh;
+    background-color: seagreen;
+}
